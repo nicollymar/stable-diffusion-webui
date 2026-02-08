@@ -1,0 +1,193 @@
+{
+  "project": {
+    "name": "reticências",
+    "version": "1.0",
+    "description": "Mental health app - Complete visual identity and brand manual",
+    "status": "complete",
+    "created": "2026-02-08"
+  },
+  "brand": {
+    "concept": "Three dots (ellipsis) representing continuous journey, reflective pause, and open possibilities in mental health",
+    "values": [
+      "Welcoming",
+      "Non-judgmental",
+      "Encouraging",
+      "Evidence-based"
+    ]
+  },
+  "colors": {
+    "primary": {
+      "sunsetAmber": {
+        "name": "Sunset Amber",
+        "hex": "#F4A261",
+        "rgb": [244, 162, 97],
+        "cmyk": [0, 34, 60, 4],
+        "hsl": [27, 86, 67],
+        "usage": "Primary buttons, CTAs, highlights"
+      },
+      "sunriseGold": {
+        "name": "Sunrise Gold",
+        "hex": "#E9C46A",
+        "rgb": [233, 196, 106],
+        "cmyk": [0, 16, 54, 9],
+        "hsl": [42, 73, 66],
+        "usage": "Progress indicators, achievements"
+      },
+      "skyCalm": {
+        "name": "Sky Calm",
+        "hex": "#94C5CC",
+        "rgb": [148, 197, 204],
+        "cmyk": [27, 3, 0, 20],
+        "hsl": [187, 35, 69],
+        "usage": "Backgrounds, mindfulness sections"
+      },
+      "seaDeep": {
+        "name": "Sea Deep",
+        "hex": "#2A4858",
+        "rgb": [42, 72, 88],
+        "cmyk": [52, 18, 0, 65],
+        "hsl": [201, 35, 25],
+        "usage": "Primary text, navigation"
+      },
+      "earthSoft": {
+        "name": "Earth Soft",
+        "hex": "#A8DADC",
+        "rgb": [168, 218, 220],
+        "cmyk": [24, 1, 0, 14],
+        "hsl": [182, 43, 76],
+        "usage": "Success indicators, balance"
+      }
+    },
+    "semantic": {
+      "success": "#52B788",
+      "warning": "#FFB703",
+      "error": "#E63946",
+      "info": "#457B9D"
+    },
+    "interface": {
+      "background": "#FFFFFF",
+      "backgroundSecondary": "#F8F9FA",
+      "surface": "#FEFEFE",
+      "border": "#DEE2E6",
+      "textPrimary": "#2A4858",
+      "textSecondary": "#495057"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "Inter",
+      "fallback": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "sizes": {
+      "mobile": {
+        "h1": "32px",
+        "h2": "28px",
+        "h3": "24px",
+        "body": "16px",
+        "small": "12px"
+      },
+      "desktop": {
+        "h1": "48px",
+        "h2": "40px",
+        "h3": "32px",
+        "body": "16px",
+        "small": "12px"
+      }
+    }
+  },
+  "logo": {
+    "variations": {
+      "symbols": 10,
+      "horizontal": 5,
+      "vertical": 5,
+      "square": 5
+    },
+    "formats": ["AI", "EPS", "SVG", "PNG", "PDF", "ICO"],
+    "minSizes": {
+      "digital": {
+        "horizontal": "120px",
+        "vertical": "80px",
+        "square": "48px"
+      },
+      "print": {
+        "horizontal": "30mm",
+        "vertical": "20mm",
+        "square": "15mm"
+      }
+    }
+  },
+  "slogans": [
+    "Cada ponto, um passo. Cada pausa, um recomeço.",
+    "Sua jornada interior tem espaço para respirar...",
+    "Autocuidado que continua com você.",
+    "Transformação gradual, cuidado diário.",
+    "Pause. Reflita. Evolua.",
+    "Sua saúde mental merece reticências.",
+    "O que vem depois, você constrói agora...",
+    "Pequenos passos, grandes transformações.",
+    "Respire. Você não está sozinho...",
+    "Continue sua história, no seu ritmo."
+  ],
+  "components": {
+    "buttons": ["Primary", "Secondary", "Tertiary", "Icon", "FAB"],
+    "forms": ["Input", "Textarea", "Select", "Checkbox", "Radio", "Toggle", "Slider"],
+    "navigation": ["Bottom Bar", "Tab Bar", "Sidebar"],
+    "feedback": ["Modal", "Bottom Sheet", "Toast", "Alert"],
+    "icons": "Phosphor Icons"
+  },
+  "deliverables": {
+    "manual": {
+      "pages": "85+",
+      "sections": 8,
+      "format": "Markdown"
+    },
+    "assets": {
+      "logos": "To be generated",
+      "illustrations": "To be generated",
+      "icons": "To be generated",
+      "mockups": "To be generated"
+    },
+    "prompts": {
+      "stableDiffusion": "40+",
+      "categories": ["Logos", "Illustrations", "Backgrounds", "Icons", "Patterns", "Mockups", "Social Media"]
+    }
+  },
+  "accessibility": {
+    "standard": "WCAG AAA",
+    "contrast": {
+      "textPrimary": "10.5:1",
+      "textSecondary": "7.2:1",
+      "large": "3.8:1 minimum"
+    },
+    "features": [
+      "Keyboard navigation",
+      "Screen reader support",
+      "Touch targets 44x44px minimum",
+      "Clear focus states",
+      "Color contrast compliant"
+    ]
+  },
+  "applications": [
+    "iOS App",
+    "Android App",
+    "Website",
+    "Email marketing",
+    "Social media",
+    "Print materials",
+    "Promotional items"
+  ],
+  "tooling": {
+    "design": ["Figma", "Sketch", "Adobe Illustrator", "Photoshop"],
+    "generation": ["Stable Diffusion", "Real-ESRGAN"],
+    "icons": ["Phosphor Icons", "Heroicons"],
+    "fonts": ["Google Fonts", "Inter"],
+    "development": ["CSS Variables", "Design Tokens", "Component Library"]
+  }
+}
